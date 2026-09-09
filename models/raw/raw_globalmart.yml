@@ -16,7 +16,8 @@ models:
       - name: shipmode
         tests:
           - accepted_values:
-              values: ['First Class', ´Same Day', 'Second Class', 'Standard Class']
-     
-          
-          
+              arguments:
+                - 'First Class'
+                - 'Same Day'
+                - 'Second Class'
+                - 'Standard Class'   
